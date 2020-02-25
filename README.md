@@ -11,7 +11,7 @@ Models are built in 40 epochs each with ~9K Parameters:
 
 #### Train and Test Accuracy of four models built are:
 
-1. Without any Regularisation    <tab></tab>                   :Train Accuracy = 99.25% , Test Accuracy = 99.38%
+1. Without any Regularisation<tab></tab>:Train Accuracy = 99.25% , Test Accuracy = 99.38%
 2. With L1 Regularisation with alpha = 0.0005       :Train Accuracy = 98.03% , Test Accuracy = 98.79%
 3. With L2 Regularisation with alpha = 0.0005       :Train Accuracy = 99.14% , Test Accuracy = 99.35%
 4. With L1 & L2 Regularisation with alpha = 0.0005  :Train Accuracy = 98.04% , Test Accuracy = 98.72%
@@ -20,6 +20,16 @@ Models are built in 40 epochs each with ~9K Parameters:
 #### Test Accuracy and Test Loss plots of 4 models:
  ![](./Validation_Accuracy.png)
  ![](./validation_loss.png)
+ 
+#### Performance Comparison:
+
+
+ 
+#### Misclassified Images of L1 regularised Model
+
  ![](./L1_Misclassified_Images.png)
+ 
+#### Misclassified Images of L2 regularised Model
+
  ![](./L2_Misclassified_Images.png)
 
