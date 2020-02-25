@@ -25,11 +25,11 @@ Models are built in 40 epochs each with ~9K Parameters:
 With Regularisation the gap between Train Accuracy and Test accuracy Reduces. 
 
 1. L2 Regularisation performed better than L1 Regularisation because
-* 1.1. L2 reduced the gap between Train Accuracy and Test accuracy better than L1
-* 1.2. Test Accuracy got less affected by L2 Regularised model
+   *  L2 reduced the gap between Train Accuracy and Test accuracy better than L1
+   *  Test Accuracy got less affected by L2 Regularised model
 2. L1 and L2 regularisation applied together, performing better than L1 and not better than L2.
 3. Hence the performance of the regularisation based on this esperiment is as follows:
-   3.1. L2 > L1&L2 > L1
+   *  L2 > L1&L2 > L1
 
  
 #### Misclassified Images of L1 regularised Model
